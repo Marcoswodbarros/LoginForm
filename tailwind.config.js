@@ -11,7 +11,8 @@ module.exports = {
       },
 
       fontFamily: {
-        openSans: 'Open',
+        poppins: 'Poppins',
+        roboto: 'Roboto',
       },
 
       screens: {
