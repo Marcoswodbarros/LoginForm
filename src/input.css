@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .input__style {
-    @apply bg-formBackground ml-4 pt-2 pb-2 rounded-sm placeholder:text-xs placeholder:pl-8 placeholder:pb-5 border-2 outline-none w-11/12;
+    @apply bg-formBackground ml-4 pt-2 pb-2 pl-8 rounded-sm placeholder:text-xs border-2 outline-none w-11/12;
 }
 
 .button__style {

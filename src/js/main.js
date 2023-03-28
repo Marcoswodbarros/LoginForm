@@ -5,6 +5,8 @@ let password = document.querySelector("#password");
 let passwordImg = document.querySelector("#password__img");
 let passwordImgOn = document.querySelector("#password__img--on");
 
+let checkbox = document.querySelector("#checkbox");
+
 function emailYellow () {
     email.style.borderColor = "#ffc632";
     mailImg.style.display = "none";
@@ -28,4 +30,10 @@ function passwordNormal () {
     password.style.borderColor = "#afb6c2";
     passwordImg.style.display = "block";
     passwordImgOn.style.display = "none";
+}
+
+
+
+function check () {
+    checkbox.style.background = "#ffc632";
 }
