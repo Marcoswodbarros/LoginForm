@@ -6,6 +6,10 @@
     @apply bg-formBackground ml-4 pt-2 pb-2 pl-8 rounded-sm placeholder:text-xs border-2 outline-none w-11/12;
 }
 
+.main__container--laptop {
+    @apply laptop:bg-formBackground laptop:mt-20 laptop:mx-10 laptop:mb-16 laptop:px-10 laptop:w-half;
+}
+
 .button__style {
     @apply bg-primaryColor text-background text-lg uppercase font-poppins font-semibold rounded pt-2 pb-2 ml-4 w-11/12;
 }
