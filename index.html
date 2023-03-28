@@ -30,14 +30,14 @@
         <div class="relative">
             <img src="src/images/mail.svg" class="absolute left-6 top-3" alt="Mail icon">
             <img src="src/images/mail-focus.svg" class="absolute left-6 top-3 hidden" alt="Mail icon">
-            <input type="email" name="email" id="email" class="input__style" placeholder="Digite seu e-mail">
+            <input type="email" name="email" id="email" class="input__style" placeholder="Digite seu e-mail" onfocus="emailYellow()" onblur="emailNormal()">
         </div>
 
         <label for="password" class="font-poppins block mt-6 ml-4">Senha</label>
         <div class="relative">
             <img src="src/images/lock.svg" class="absolute left-6 top-3" alt="Mail icon">
             <img src="src/images/lock-focus.svg" class="absolute left-6 top-3 hidden" alt="Mail icon">
-            <input type="password" name="password" id="password" class="input__style" placeholder="Digite sua senha">
+            <input type="password" name="password" id="password" class="input__style" placeholder="Digite sua senha" onfocus="passwordYellow()" onblur="passwordNormal()">
             <img src="src/images/eye.svg" class="absolute right-7 top-3" alt="Eye icon">
         </div>
 
@@ -53,5 +53,7 @@
         <button type="submit" class="button__style">Entrar</button>
         <p class="text-primaryColor mt-3 text-center">Não tem uma conta?<a href="#" class="font-semibold ml-2">Registre-se</a></p>
     </main>
+
+    <script src="src/js/main.js"></script>
 </body>
 </html>
