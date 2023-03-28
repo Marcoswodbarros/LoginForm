@@ -513,6 +513,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -551,6 +561,14 @@ video {
 
 .flex {
   display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .flex-row-reverse {
@@ -603,6 +621,28 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-formBackground {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 34 31 / var(--tw-bg-opacity));
+}
+
+.bg-primaryColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 198 50 / var(--tw-bg-opacity));
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
 .font-poppins {
   font-family: Poppins;
 }
@@ -630,6 +670,10 @@ video {
   font-weight: 600;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -643,6 +687,11 @@ video {
 .text-textBase {
   --tw-text-opacity: 1;
   color: rgb(175 182 194 / var(--tw-text-opacity));
+}
+
+.text-background {
+  --tw-text-opacity: 1;
+  color: rgb(25 24 22 / var(--tw-text-opacity));
 }
 
 .placeholder\:border-blue-800::-moz-placeholder {
