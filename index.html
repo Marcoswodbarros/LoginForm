@@ -15,11 +15,11 @@
 </head>
 
 <body class="bg-background text-textBase box-border">
-    <header>
-        <img src="src/images/logo.svg" class="mt-8 ml-4" alt="Camp.in Logo">
+    <header class="relative">
+        <img src="src/images/logo.svg" class="mt-8 ml-4 laptop:absolute laptop:ml-8" alt="Camp.in Logo">
     </header>
 
-    <main class="flex tablet:justify-center">
+    <main class="flex tablet:justify-center laptop:justify-around">
         <div id="main__container" class="tablet:w-6/12">
             <div id="main__title" class="mt-8 ml-4 flex items-center gap-2 flex-wrap tablet:mt-16">
                 <img src="src/images/log-in.svg" alt="Login icon">
@@ -55,8 +55,8 @@
             <p class="text-primaryColor mt-3 text-center">Não tem uma conta?<a href="#" class="font-semibold ml-2">Registre-se</a></p>
         </div>
 
-        <div class="w-1/2 hidden">
-            <img src="src/images/side-image.jpg" class="hidden h-screen w-half" alt="Car in a lake with a beautiful view">
+        <div class="w-1/2 hidden laptop:block">
+            <img src="src/images/side-image.jpg" class="hidden laptop:block h-screen w-half" alt="Car in a lake with a beautiful view">
             <img src="src/images/side-image-2x.jpg" class="hidden" alt="">
         </div>
     </main>

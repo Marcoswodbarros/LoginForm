@@ -533,6 +533,22 @@ video {
   top: 0.75rem;
 }
 
+.left-4 {
+  left: 1rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -753,5 +769,27 @@ video {
   .tablet\:bg-formBackground {
     --tw-bg-opacity: 1;
     background-color: rgb(36 34 31 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 1024px) {
+  .laptop\:absolute {
+    position: absolute;
+  }
+
+  .laptop\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .laptop\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .laptop\:block {
+    display: block;
+  }
+
+  .laptop\:justify-around {
+    justify-content: space-around;
   }
 }
