@@ -737,7 +737,21 @@ video {
     margin-top: 0px;
   }
 
+  .laptop\:block {
+    display: block;
+  }
+
   .laptop\:w-6\/12 {
     width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:block {
+    display: block;
+  }
+
+  .desktop\:hidden {
+    display: none;
   }
 }
