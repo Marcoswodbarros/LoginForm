@@ -15,6 +15,10 @@ module.exports = {
         roboto: 'Roboto',
       },
 
+      width: {
+        "half": "50vw",
+      },
+
       screens: {
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }

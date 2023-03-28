@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.main__tablet {
+    @apply tablet:bg-formBackground tablet:pt-4 tablet:pr-20 tablet:pb-12 tablet:pl-20 tablet:mr-20 tablet:ml-20 tablet:rounded-md;
+}
+
 .input__style {
     @apply bg-formBackground ml-4 pt-2 pb-2 pl-8 rounded-sm placeholder:text-xs border-2 outline-none w-11/12;
 }
