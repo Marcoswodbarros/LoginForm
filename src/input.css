@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input__style {
+    @apply bg-formBackground ml-4 pt-2 pb-2 rounded-sm placeholder:text-xs placeholder:pl-8 placeholder:pb-5 border-2 border-primaryColor outline-none w-11/12;
+}
+
+.button__style {
+    @apply bg-primaryColor text-background text-lg uppercase font-poppins font-semibold rounded pt-2 pb-2 ml-4 w-11/12;
+}
