@@ -568,6 +568,18 @@ video {
   margin-left: 0.75rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -709,6 +721,11 @@ video {
 .text-background {
   --tw-text-opacity: 1;
   color: rgb(25 24 22 / var(--tw-text-opacity));
+}
+
+.text-primaryColor {
+  --tw-text-opacity: 1;
+  color: rgb(255 198 50 / var(--tw-text-opacity));
 }
 
 .placeholder\:border-blue-800::-moz-placeholder {
