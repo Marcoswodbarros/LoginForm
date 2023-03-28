@@ -5,35 +5,27 @@ let password = document.querySelector("#password");
 let passwordImg = document.querySelector("#password__img");
 let passwordImgOn = document.querySelector("#password__img--on");
 
-let checkbox = document.querySelector("#checkbox");
-
-function emailYellow () {
+function yellowEmail () {
     email.style.borderColor = "#ffc632";
     mailImg.style.display = "none";
     mailImgOn.style.display = "block";
 }
 
-function emailNormal () {
+function normalEmail () {
     email.style.borderColor = "#afb6c2";
     mailImg.style.display = "block";
     mailImgOn.style.display = "none";
 }
 
 
-function passwordYellow () {
+function yellowPassword () {
     password.style.borderColor = "#ffc632";
     passwordImg.style.display = "none";
     passwordImgOn.style.display = "block";
 }
 
-function passwordNormal () {
+function normalPassword () {
     password.style.borderColor = "#afb6c2";
     passwordImg.style.display = "block";
     passwordImgOn.style.display = "none";
-}
-
-
-
-function check () {
-    checkbox.style.background = "#ffc632";
 }

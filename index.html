@@ -14,7 +14,7 @@
     <title>Login Form</title>
 </head>
 
-<body class="bg-background">
+<body class="bg-background box-border">
     <header>
         <img src="src/images/logo.svg" class="my-8 ml-4" alt="Camp.in logo">
     </header>
@@ -28,8 +28,17 @@
 
         <label for="email" class="text-textBase text-lg font-poppins pl-4">E-mail</label>
         <div id="email__container absolute">
-            <input type="email" name="email" id="email" class="block ml-4 py-2 pl-8 placeholder:text-sm rounded outline-none" placeholder="Digite seu email">
-            <img src="src/images/mail.svg" class="relative left-6 bottom-7" alt="">
+            <input type="email" name="email" id="email" class="block ml-4 py-2 pl-8 placeholder:text-sm rounded border-2 outline-none w-11/12" placeholder="Digite seu email" onfocus="yellowEmail()" onblur="normalEmail()">
+            <img src="src/images/mail.svg" id="mail" class="relative left-6 bottom-8" alt="Mail">
+            <img src="src/images/mail-focus.svg" id="mail__on" class="relative left-6 bottom-8 hidden" alt="Yellow mail">
+        </div>
+
+        <label for="password" class="text-textBase text-lg font-poppins pl-4">Senha</label>
+        <div id="password__container" class="relative">
+            <input type="password" name="password" id="password" class="block ml-4 py-2 pl-8 placeholder:text-sm rounded border-2 outline-none w-11/12" placeholder="Digite sua senha" onfocus="yellowPassword()" onblur="normalPassword()">
+            <img src="src/images/lock.svg" id="password__img" class="relative left-6 bottom-8" alt="lock">
+            <img src="src/images/lock-focus.svg" id="password__img--on" class="relative left-6 bottom-8 hidden" alt="Yellow lock">
+            <img src="src/images/eye.svg" class="absolute left-80 bottom-8" alt="Eye logo">
         </div>
     </main>
 
