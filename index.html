@@ -34,7 +34,12 @@
         </div>
 
         <label for="password" class="font-poppins block mt-6 ml-4">Senha</label>
-        <input type="password" name="password" id="password" class="input__style" placeholder="Digite sua senha">
+        <div class="relative">
+            <img src="src/images/lock.svg" class="absolute left-6 top-3" alt="Mail icon">
+            <img src="src/images/lock-focus.svg" class="absolute left-6 top-3 hidden" alt="Mail icon">
+            <input type="password" name="password" id="password" class="input__style" placeholder="Digite sua senha">
+            <img src="src/images/eye.svg" class="absolute right-7 top-3" alt="Eye icon">
+        </div>
 
         <div id="checkbox__container" class="flex justify-between mt-3 mb-3">
             <div id="checkbox__position" class="flex flex-row-reverse justify-end gap-2 ml-4">
