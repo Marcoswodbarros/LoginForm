@@ -521,6 +521,10 @@ video {
   position: relative;
 }
 
+.left-3\/4 {
+  left: 75%;
+}
+
 .left-6 {
   left: 1.5rem;
 }
@@ -531,6 +535,35 @@ video {
 
 .top-3 {
   top: 0.75rem;
+}
+
+.top-3\/4 {
+  top: 75%;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-3 {
@@ -597,13 +630,26 @@ video {
   gap: 0.5rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .bg-background {
   --tw-bg-opacity: 1;
   background-color: rgb(25 24 22 / var(--tw-bg-opacity));
 }
 
+.bg-formBackground {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 34 31 / var(--tw-bg-opacity));
+}
+
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-center {
@@ -628,6 +674,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -647,57 +698,17 @@ video {
   color: rgb(212 204 182 / var(--tw-text-opacity));
 }
 
-.input__style {
-  margin-left: 1rem;
-  width: 91.666667%;
-  border-radius: 0.125rem;
-  border-width: 2px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(36 34 31 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 2rem;
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
+@media (min-width: 640px) {
+  .tablet\:absolute {
+    position: absolute;
+  }
 
-.input__style::-moz-placeholder {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
+  .tablet\:ml-8 {
+    margin-left: 2rem;
+  }
 
-.input__style::placeholder {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .main__container--laptop {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-top: 5rem;
-    margin-bottom: 4rem;
-    width: 50vw;
-    --tw-bg-opacity: 1;
-    background-color: rgb(36 34 31 / var(--tw-bg-opacity));
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .tablet\:mt-0 {
+    margin-top: 0px;
   }
 }
 
-.button__style {
-  margin-left: 1rem;
-  width: 91.666667%;
-  border-radius: 0.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 198 50 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-family: Poppins;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  --tw-text-opacity: 1;
-  color: rgb(25 24 22 / var(--tw-text-opacity));
-}
