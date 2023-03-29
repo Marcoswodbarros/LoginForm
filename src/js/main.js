@@ -29,3 +29,25 @@ function normalPassword () {
     passwordImg.style.display = "block";
     passwordImgOn.style.display = "none";
 }
+
+
+// Validando email
+let form = document.querySelector("form");
+let button = document.querySelector("button");
+
+form.addEventListener("submit", emailCondition);
+button.addEventListener("click", emailCondition);
+
+function emailCondition (x) {
+    x.preventDefault()
+
+    let emailValue = email.value.trim()
+    
+    if (!isEmail(emailValue) || emailValue == "") {
+        alert("Por favor, preencha o campo de email corretamente.")
+    }
+}
+
+function isEmail (email) {
+    return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+}

@@ -21,7 +21,7 @@
 
     <main class="mt-16 w-10/12 laptop:flex laptop:w-screen laptop:items-center laptop:gap-8">
         <div id="main__container" class="laptop:rounded laptop:w-half flex justify-center">
-            <div id="main__container--position" class="flex flex-col gap-4 laptop:bg-formBackground laptop:py-10 laptop:px-16 laptop:w-40vw">
+            <form id="main__container--position" class="flex flex-col gap-4 laptop:bg-formBackground laptop:py-10 laptop:px-16 laptop:w-40vw">
                 <div id="titles" class="flex flex-wrap gap-2">
                     <img src="src/images/log-in.svg" alt="Login">
                     <h1 class="text-textTitle font-poppins text-2xl desktop:text-3xl font-semibold">Faça seu login</h1>
@@ -37,7 +37,7 @@
 
                 <div id="inputs__password" class="flex flex-col relative">
                     <label for="password" class="font-poppins desktop:text-lg">Senha</label>
-                    <input type="password" name="password" id="password" class="emailPass__input--mobile email__input--desktop" placeholder="Digite sua senha" onfocus="yellowPassword()" onblur="normalPassword()">
+                    <input type="password" name="password" id="password" class="emailPass__input--mobile email__input--desktop" placeholder="Digite sua senha" required onfocus="yellowPassword()" onblur="normalPassword()">
                     <img src="src/images/lock.svg" id="password__img" class="absolute top-8 left-2 h-6 desktop:top-10" alt="Lock">
                     <img src="src/images/lock-focus.svg" id="password__img--on" class="absolute top-8 left-2 h-6 hidden desktop:top-10" alt="Yellow lock">
                 </div>
@@ -57,7 +57,7 @@
                 <div id="lastLink" class="text-primaryColor flex justify-center">
                     <span>Não tem uma conta? <a href="#" class="font-semibold hover:underline">Registre-se</a></span>
                 </div>
-            </div>
+            </form>
         </div>
 
         <div id="img__container" class="laptop:w-half">
