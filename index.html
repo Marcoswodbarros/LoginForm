@@ -30,14 +30,14 @@
 
                 <div id="inputs__email" class="flex flex-col relative">
                     <label for="email" class="font-poppins desktop:text-lg">E-mail</label>
-                    <input type="email" name="email" id="email" class="font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm desktop:h-12 desktop:placeholder:text-base" placeholder="Digite seu e-mail" onfocus="yellowEmail()" onblur="normalEmail()">
+                    <input type="email" name="email" id="email" class="emailPass__input--mobile email__input--desktop" placeholder="Digite seu e-mail" onfocus="yellowEmail()" onblur="normalEmail()">
                     <img src="src/images/mail.svg" id="mail" class="absolute top-8 left-2 h-6 desktop:top-10" alt="Mail">
                     <img src="src/images/mail-focus.svg" id="mail__on" class="absolute top-8 left-2 h-6 hidden desktop:top-10" alt="Yellow mail">
                 </div>
 
                 <div id="inputs__password" class="flex flex-col relative">
                     <label for="password" class="font-poppins desktop:text-lg">Senha</label>
-                    <input type="password" name="password" id="password" class="font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm desktop:h-12 desktop:placeholder:text-base" placeholder="Digite sua senha" onfocus="yellowPassword()" onblur="normalPassword()">
+                    <input type="password" name="password" id="password" class="emailPass__input--mobile email__input--desktop" placeholder="Digite sua senha" onfocus="yellowPassword()" onblur="normalPassword()">
                     <img src="src/images/lock.svg" id="password__img" class="absolute top-8 left-2 h-6 desktop:top-10" alt="Lock">
                     <img src="src/images/lock-focus.svg" id="password__img--on" class="absolute top-8 left-2 h-6 hidden desktop:top-10" alt="Yellow lock">
                 </div>
@@ -51,7 +51,7 @@
                 </div>
 
                 <div id="inputs__button" class="flex justify-center">
-                    <button type="submit" class="bg-primaryColor text-background uppercase font-poppins font-semibold h-10 w-full rounded desktop:text-lg desktop:h-12 hover:bg-green-500 transition duration-300 ease-linear">Entrar</button>
+                    <button type="submit" class="button__input--style">Entrar</button>
                 </div>
 
                 <div id="lastLink" class="text-primaryColor flex justify-center">
@@ -61,8 +61,8 @@
         </div>
 
         <div id="img__container" class="laptop:w-half">
-            <img src="src/images/side-image.jpg" class="hidden laptop:block desktop:hidden laptop:h-screen laptop:w-half absolute top-0 right-0" alt="Car next to a lake with a beautiful view">
-            <img src="src/images/side-image-2x.jpg" class="hidden desktop:block laptop:h-screen laptop:w-half absolute top-0 right-0" alt="Car next to a lake with a beautiful view">
+            <img src="src/images/side-image.jpg" class="hidden sideImage__laptop desktop:hidden absolute top-0 right-0" alt="Car next to a lake with a beautiful view">
+            <img src="src/images/side-image-2x.jpg" class="hidden sideImage__desktop absolute top-0 right-0" alt="Car next to a lake with a beautiful view">
         </div>
     </main>
 

@@ -541,10 +541,6 @@ video {
   top: 2rem;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .mt-16 {
   margin-top: 4rem;
 }
@@ -565,24 +561,12 @@ video {
   height: 1.5rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
 .w-10\/12 {
   width: 83.333333%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .flex-col {
@@ -621,16 +605,8 @@ video {
   gap: 2rem;
 }
 
-.gap-96 {
-  gap: 24rem;
-}
-
 .rounded {
   border-radius: 0.25rem;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .bg-background {
@@ -641,10 +617,6 @@ video {
 .bg-primaryColor {
   --tw-bg-opacity: 1;
   background-color: rgb(255 198 50 / var(--tw-bg-opacity));
-}
-
-.pl-9 {
-  padding-left: 2.25rem;
 }
 
 .font-poppins {
@@ -663,11 +635,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -698,11 +665,6 @@ video {
   color: rgb(212 204 182 / var(--tw-text-opacity));
 }
 
-.outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -715,42 +677,92 @@ video {
   transition-duration: 300ms;
 }
 
-.duration-700 {
-  transition-duration: 700ms;
-}
-
 .ease-linear {
   transition-timing-function: linear;
 }
 
-.placeholder\:text-sm::-moz-placeholder {
+.emailPass__input--mobile {
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  border-width: 2px;
+  padding-left: 2.25rem;
+  font-family: Roboto;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.emailPass__input--mobile::-moz-placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.placeholder\:text-sm::placeholder {
+.emailPass__input--mobile::placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.placeholder\:text-lg::-moz-placeholder {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+@media (min-width: 1280px) {
+  .email__input--desktop {
+    height: 3rem;
+  }
+
+  .email__input--desktop::-moz-placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .email__input--desktop::placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
-.placeholder\:text-lg::placeholder {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.button__input--style {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 198 50 / var(--tw-bg-opacity));
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(25 24 22 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
-.placeholder\:text-xl::-moz-placeholder {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.button__input--style:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
-.placeholder\:text-xl::placeholder {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+@media (min-width: 1280px) {
+  .button__input--style {
+    height: 3rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sideImage__laptop {
+    display: block;
+    height: 100vh;
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sideImage__desktop {
+    display: block;
+    height: 100vh;
+    width: 50vw;
+  }
 }
 
 .hover\:bg-green-500:hover {
@@ -769,20 +781,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .laptop\:block {
-    display: block;
-  }
-
   .laptop\:flex {
     display: flex;
-  }
-
-  .laptop\:h-screen {
-    height: 100vh;
-  }
-
-  .laptop\:h-10h {
-    height: 10vh;
   }
 
   .laptop\:w-40vw {
@@ -834,48 +834,12 @@ video {
     top: 2.5rem;
   }
 
-  .desktop\:top-9 {
-    top: 2.25rem;
-  }
-
-  .desktop\:block {
-    display: block;
-  }
-
   .desktop\:hidden {
     display: none;
   }
 
-  .desktop\:h-8 {
-    height: 2rem;
-  }
-
-  .desktop\:h-7 {
-    height: 1.75rem;
-  }
-
-  .desktop\:h-6 {
-    height: 1.5rem;
-  }
-
-  .desktop\:h-14 {
-    height: 3.5rem;
-  }
-
   .desktop\:h-12 {
     height: 3rem;
-  }
-
-  .desktop\:gap-16 {
-    gap: 4rem;
-  }
-
-  .desktop\:gap-32 {
-    gap: 8rem;
-  }
-
-  .desktop\:gap-28 {
-    gap: 7rem;
   }
 
   .desktop\:gap-24 {
@@ -891,35 +855,4 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .desktop\:placeholder\:text-xl::-moz-placeholder {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .desktop\:placeholder\:text-xl::placeholder {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .desktop\:placeholder\:text-lg::-moz-placeholder {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .desktop\:placeholder\:text-lg::placeholder {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .desktop\:placeholder\:text-base::-moz-placeholder {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .desktop\:placeholder\:text-base::placeholder {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
-

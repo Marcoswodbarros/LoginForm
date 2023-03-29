@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.emailPass__input--mobile {
+    @apply font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm;
+}
+
+.email__input--desktop {
+    @apply desktop:h-12 desktop:placeholder:text-base;
+}
+
+.button__input--style {
+    @apply bg-primaryColor text-background uppercase font-poppins font-semibold h-10 w-full rounded desktop:text-lg desktop:h-12 hover:bg-green-500 transition duration-300 ease-linear;
+}
+
+.sideImage__laptop {
+    @apply laptop:block laptop:h-screen laptop:w-half;
+}
+
+.sideImage__desktop {
+    @apply desktop:block desktop:h-screen desktop:w-half;
+}
