@@ -22,7 +22,9 @@ module.exports = {
       },
 
       height: {
+        '10h': '10vh',
         '60h': '60vh',
+        '70h': '70vh',
       },
 
       width: {

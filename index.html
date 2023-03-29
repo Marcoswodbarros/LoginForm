@@ -14,29 +14,29 @@
     <title>Login Form</title>
 </head>
 
-<body class="bg-background text-textBase  flex flex-col items-center gap-8">
+<body class="bg-background text-textBase flex flex-col items-center justify-center gap-8 desktop:gap-32">
     <header>
         <img src="src/images/logo.svg" class="absolute top-8 left-8" alt="Camp.in logo">
     </header>
 
     <main class="mt-16 w-10/12 laptop:flex laptop:w-screen laptop:items-center laptop:gap-8">
         <div id="main__container" class="laptop:rounded laptop:w-half flex justify-center">
-            <div id="test" class="flex flex-col gap-4 laptop:bg-formBackground laptop:py-16 laptop:px-24 laptop:h-60h laptop:w-40vw">
+            <div id="main__container--position" class="flex flex-col gap-4 laptop:bg-formBackground laptop:py-10 laptop:px-16 laptop:w-40vw">
                 <div id="titles" class="flex flex-wrap gap-2">
                     <img src="src/images/log-in.svg" alt="Login">
-                    <h1 class="text-textTitle font-poppins text-2xl font-semibold">Faça seu login</h1>
-                    <p class="font-roboto tablet:w-80">Entre com suas informações de cadastro.</p>
+                    <h1 class="text-textTitle font-poppins text-2xl desktop:text-3xl font-semibold">Faça seu login</h1>
+                    <p class="font-roboto tablet:w-80 laptop:w-96 desktop:text-lg">Entre com suas informações de cadastro.</p>
                 </div>
 
                 <div id="inputs__email" class="flex flex-col relative">
-                    <label for="email" class="font-poppins">E-mail</label>
+                    <label for="email" class="font-poppins desktop:text-lg">E-mail</label>
                     <input type="email" name="email" id="email" class="font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm" placeholder="Digite seu e-mail" onfocus="yellowEmail()" onblur="normalEmail()">
                     <img src="src/images/mail.svg" id="mail" class="absolute top-8 left-2 h-6" alt="Mail">
                     <img src="src/images/mail-focus.svg" id="mail__on" class="absolute top-8 left-2 h-6 hidden" alt="Yellow mail">
                 </div>
 
                 <div id="inputs__password" class="flex flex-col relative">
-                    <label for="password">Senha</label>
+                    <label for="password" class="font-poppins desktop:text-lg">Senha</label>
                     <input type="password" name="password" id="password" class="font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm" placeholder="Digite sua senha" onfocus="yellowPassword()" onblur="normalPassword()">
                     <img src="src/images/lock.svg" id="password__img" class="absolute top-8 left-2 h-6" alt="Lock">
                     <img src="src/images/lock-focus.svg" id="password__img--on" class="absolute top-8 left-2 h-6 hidden" alt="Yellow lock">
@@ -45,9 +45,9 @@
                 <div id="inputs__checkbox" class="font-poppins flex justify-between text-sm">
                     <div id="inputs__checkbox--position" class="flex items-center gap-1">
                         <input type="checkbox" name="checkbox" id="checkbox">
-                        <label for="checkbox">Lembre-me</label>
+                        <label for="checkbox" class="desktop:text-lg">Lembre-me</label>
                     </div>
-                    <p class="text-primaryColor">Esqueci minha senha</p>
+                    <p class="text-primaryColor desktop:text-lg">Esqueci minha senha</p>
                 </div>
 
                 <div id="inputs__button" class="flex justify-center">

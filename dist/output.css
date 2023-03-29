@@ -541,6 +541,10 @@ video {
   top: 2rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -605,6 +609,10 @@ video {
   gap: 2rem;
 }
 
+.gap-96 {
+  gap: 24rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -643,6 +651,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -703,12 +716,16 @@ video {
     display: flex;
   }
 
-  .laptop\:h-60h {
-    height: 60vh;
-  }
-
   .laptop\:h-screen {
     height: 100vh;
+  }
+
+  .laptop\:h-10h {
+    height: 10vh;
+  }
+
+  .laptop\:w-40vw {
+    width: 40vw;
   }
 
   .laptop\:w-96 {
@@ -721,10 +738,6 @@ video {
 
   .laptop\:w-screen {
     width: 100vw;
-  }
-
-  .laptop\:w-40vw {
-    width: 40vw;
   }
 
   .laptop\:items-center {
@@ -744,14 +757,34 @@ video {
     background-color: rgb(36 34 31 / var(--tw-bg-opacity));
   }
 
-  .laptop\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .laptop\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
-  .laptop\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .laptop\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:gap-16 {
+    gap: 4rem;
+  }
+
+  .desktop\:gap-32 {
+    gap: 8rem;
+  }
+
+  .desktop\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .desktop\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
