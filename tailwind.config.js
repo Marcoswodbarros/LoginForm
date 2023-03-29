@@ -21,7 +21,12 @@ module.exports = {
         '67': '17.5rem',
       },
 
+      height: {
+        '60h': '60vh',
+      },
+
       width: {
+        '40vw': '40vw',
         "half": "50vw",
       },
 
