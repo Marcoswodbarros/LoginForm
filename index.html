@@ -28,16 +28,16 @@
 
         <div id="inputs__email" class="flex flex-col relative">
             <label for="email" class="font-poppins">E-mail</label>
-            <input type="email" name="email" id="email" class="font-roboto h-10 rounded pl-9 outline-none placeholder:text-sm" placeholder="Digite seu e-mail">
-            <img src="src/images/mail.svg" class="absolute top-8 left-2 h-6" alt="Mail">
-            <img src="src/images/mail-focus.svg" class="absolute top-8 left-2 h-6 hidden" alt="Yellow mail">
+            <input type="email" name="email" id="email" class="font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm" placeholder="Digite seu e-mail" onfocus="yellowEmail()" onblur="normalEmail()">
+            <img src="src/images/mail.svg" id="mail" class="absolute top-8 left-2 h-6" alt="Mail">
+            <img src="src/images/mail-focus.svg" id="mail__on" class="absolute top-8 left-2 h-6 hidden" alt="Yellow mail">
         </div>
 
         <div id="inputs__password" class="flex flex-col relative">
             <label for="password">Senha</label>
-            <input type="password" name="password" id="password" class="font-roboto h-10 rounded pl-9 outline-none placeholder:text-sm" placeholder="Digite sua senha">
-            <img src="src/images/lock.svg" class="absolute top-8 left-2 h-6" alt="Lock">
-            <img src="src/images/lock-focus.svg" class="absolute top-8 left-2 h-6 hidden" alt="Yellow lock">
+            <input type="password" name="password" id="password" class="font-roboto h-10 rounded pl-9 border-2 outline-none placeholder:text-sm" placeholder="Digite sua senha" onfocus="yellowPassword()" onblur="normalPassword()">
+            <img src="src/images/lock.svg" id="password__img" class="absolute top-8 left-2 h-6" alt="Lock">
+            <img src="src/images/lock-focus.svg" id="password__img--on" class="absolute top-8 left-2 h-6 hidden" alt="Yellow lock">
             <img src="src/images/eye.svg" class="absolute top-8 left-67 h-6" alt="Eye">
         </div>
 
