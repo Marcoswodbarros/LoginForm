@@ -565,12 +565,24 @@ video {
   height: 1.5rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
 .w-10\/12 {
   width: 83.333333%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .flex-col {
@@ -797,6 +809,14 @@ video {
     top: 2.25rem;
   }
 
+  .desktop\:block {
+    display: block;
+  }
+
+  .desktop\:hidden {
+    display: none;
+  }
+
   .desktop\:h-8 {
     height: 2rem;
   }
@@ -809,12 +829,28 @@ video {
     height: 1.5rem;
   }
 
+  .desktop\:h-14 {
+    height: 3.5rem;
+  }
+
+  .desktop\:h-12 {
+    height: 3rem;
+  }
+
   .desktop\:gap-16 {
     gap: 4rem;
   }
 
   .desktop\:gap-32 {
     gap: 8rem;
+  }
+
+  .desktop\:gap-28 {
+    gap: 7rem;
+  }
+
+  .desktop\:gap-24 {
+    gap: 6rem;
   }
 
   .desktop\:text-3xl {
