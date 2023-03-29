@@ -613,6 +613,10 @@ video {
   width: 18rem;
 }
 
+.w-half {
+  width: 50vw;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -761,12 +765,30 @@ video {
     display: block;
   }
 
+  .tablet\:flex {
+    display: flex;
+  }
+
   .tablet\:hidden {
     display: none;
   }
 
   .tablet\:w-80 {
     width: 20rem;
+  }
+
+  .tablet\:w-half {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .laptop\:flex {
+    display: flex;
+  }
+
+  .laptop\:w-half {
+    width: 50vw;
   }
 }
 
