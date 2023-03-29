@@ -701,6 +701,26 @@ video {
   line-height: 1.25rem;
 }
 
+.placeholder\:text-lg::-moz-placeholder {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.placeholder\:text-lg::placeholder {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.placeholder\:text-xl::-moz-placeholder {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.placeholder\:text-xl::placeholder {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 @media (min-width: 640px) {
   .tablet\:w-80 {
     width: 20rem;
@@ -769,6 +789,26 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .desktop\:top-10 {
+    top: 2.5rem;
+  }
+
+  .desktop\:top-9 {
+    top: 2.25rem;
+  }
+
+  .desktop\:h-8 {
+    height: 2rem;
+  }
+
+  .desktop\:h-7 {
+    height: 1.75rem;
+  }
+
+  .desktop\:h-6 {
+    height: 1.5rem;
+  }
+
   .desktop\:gap-16 {
     gap: 4rem;
   }
@@ -785,6 +825,36 @@ video {
   .desktop\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .desktop\:placeholder\:text-xl::-moz-placeholder {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .desktop\:placeholder\:text-xl::placeholder {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .desktop\:placeholder\:text-lg::-moz-placeholder {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .desktop\:placeholder\:text-lg::placeholder {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .desktop\:placeholder\:text-base::-moz-placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .desktop\:placeholder\:text-base::placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
