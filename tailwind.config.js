@@ -15,6 +15,12 @@ module.exports = {
         roboto: 'Roboto',
       },
 
+      spacing: {
+        '34': '8.5rem',
+        '66': '17rem',
+        '67': '17.5rem',
+      },
+
       width: {
         "half": "50vw",
       },
